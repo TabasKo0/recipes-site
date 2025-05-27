@@ -17,6 +17,10 @@ a:link {
     color: #977eb6;
     text-decoration: none;
 }
+a:visited {
+    color: #977eb6;
+    text-decoration: none;
+}
 a:hover{
     color: #f8a4f4;
     text-decoration: underline;
