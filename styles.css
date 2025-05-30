@@ -4,6 +4,7 @@ body {
     font-size : 20px;
     color: #977eb6;
     margin-left : 100px;
+    margin-top: 120px;
 }
 
 h1 {
@@ -28,23 +29,34 @@ a:hover{
 ul {
     padding: 10;
     color: #977eb6;
+    margin-left: -50px;
 }
 .pic {
-    background-color: #2f1936;
+    
     width: 50px;
     height: auto;
     border-radius: 50%;
     border: 2px solid #977eb6;
-    margin-left : -80px;
-    margin-top: 20px;
     padding: 3px;
 }
 li {
     margin-bottom:10px;
 }
-.flp{
-    margin-top: -96px;
-}
+
 .flm {
-    margin-top: -11px;
+    margin-top: -100px;
+    margin-left: -50px;
+}
+.con {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    background-color: #2f1936;
+    margin-left : -100px;
+    padding-left: 1%;
+    position : fixed;
+    margin-top:-120px;
+    width:100%;
+    height:10%;
 }
